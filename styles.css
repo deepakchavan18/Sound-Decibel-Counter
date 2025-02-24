@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #141e30, #243b55);
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+#decibel-meter {
+    background: #333;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+#dB-bar {
+    height: 100%;
+    background: linear-gradient(90deg, #00ff00, #ffff00, #ff0000);
+    border-radius: 10px;
+    transition: width 0.1s ease;
+    width: 0;
+}
+
+#dB-value {
+    font-size: 1.5rem;
+}
